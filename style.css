@@ -21,12 +21,13 @@ html, body {
 /* BANNER INICIAL -> */
 
 header {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
     height: 100%;
     background: url("images/Background.png") no-repeat center;
+    background-size: cover;
 }
 
 /* NAVBAR -> */
@@ -34,17 +35,18 @@ header {
 header nav {
     padding: 10px;
     display: flex;
-    width: 650px;
+    width: 550px;
     justify-content: space-between;
 }
 
 /* LOGO -> */
 
 header nav>a {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     font-size: 0;
     background: url("icons/Winkle\ White.png") no-repeat center;
+    background-size: cover;
     transition: 0.2s;
 }
 
@@ -68,12 +70,12 @@ header nav ul li {
 
 header nav ul li a {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     transition: 0.2s;
 }
 
 header nav ul li a:hover {
-    font-size: 28px;
+    font-size: 25px;
     transition: 0.2s;
 }
 
@@ -83,9 +85,10 @@ header nav ul li a:hover {
 
 header>a {
     background: url("icons/twitter.png") no-repeat center;
+    background-size: cover;
     font-size: 0;
-    width: 39px;
-    height: 33px;
+    width: 33px;
+    height: 27px;
     transition: 0.2s;
 }
 
