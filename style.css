@@ -85,10 +85,10 @@ header nav ul li a:hover {
 
 header>a {
     background: url("icons/twitter.png") no-repeat center;
-    background-size: cover;
+    background-size: 29px 23px;
     font-size: 0;
-    width: 33px;
-    height: 27px;
+    width: 30px;
+    height: 30px;
     transition: 0.2s;
 }
 
